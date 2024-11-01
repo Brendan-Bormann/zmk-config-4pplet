@@ -71,11 +71,11 @@
 
         fn2_layer {
             bindings = <
-&escape_macro_2  &kp F13       &kp F14       &kp F15       &kp F16       &kp F17       &kp F18  &kp F19         &kp F20           &kp F21     &kp F22  &kp F23  &kp F24  &trans     &kp DELETE
-&trans           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans   &trans          &trans            &trans      &trans   &trans   &trans   &kp GRAVE
-&trans           &trans        &trans        &trans        &trans        &trans        &trans   &trans          &trans            &trans      &trans   &trans   &trans   &kp HOME
-&mo 3            &trans        &trans        &trans        &trans        &trans        &sl 4    &trans          &trans            &trans      &trans   &trans   &trans   &trans
-&trans           &trans        &trans        &trans        &trans        &trans        &trans   &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
+&escape_macro_2  &kp F13        &kp F14        &kp F15        &kp F16        &kp F17        &kp F18  &kp F19         &kp F20           &kp F21     &kp F22  &kp F23  &kp F24  &trans     &kp DELETE
+&bt BT_CLR_ALL   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &trans   &trans          &trans            &trans      &trans   &trans   &trans   &kp GRAVE
+&trans           &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans   &trans          &trans            &trans      &trans   &trans   &trans   &kp HOME
+&mo 3            &trans         &trans         &trans         &trans         &trans         &sl 4    &trans          &trans            &trans      &trans   &trans   &trans   &trans
+&trans           &trans         &trans         &trans         &trans         &trans         &trans   &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
 &trans
             >;
         };
